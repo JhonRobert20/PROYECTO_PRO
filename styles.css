@@ -149,6 +149,7 @@ wrap2 lo contiene todo*/
     height: 100px;
 
 }
+
 .card{
     float: left;
     width: 20%;
@@ -169,6 +170,16 @@ wrap2 lo contiene todo*/
 }
 .card .Content_Card ul li{
     line-height: 20px;
+}
+.card .other_list_1 li{
+    line-height: 40px !important;
+}
+.card .other_list_2 li{
+    line-height: 30px !important;
+}
+
+.card ul li{
+    list-style: none;
 }
 /*Fin de las cartas*/
 
@@ -276,7 +287,7 @@ wrap2 lo contiene todo*/
 
 #footer img{
 
-    width: 0.9%;
+    width: 17px;
 }
 
 #footer .icon{

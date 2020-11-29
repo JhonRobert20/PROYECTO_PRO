@@ -1,0 +1,23 @@
+@media (max-width: 610px){
+
+    #articles{
+        width: 100%;
+    }
+
+    #articles article iframe{
+        height: 50%; 
+        width: 100%;
+        margin: 0px auto;
+        padding: 0;    
+    }
+
+    #articles article{
+        margin: 0px auto;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    #articles #blog{
+        width: 80%;
+    }
+}
