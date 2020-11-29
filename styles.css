@@ -1,0 +1,377 @@
+/*Inicio Fuentes*/
+@font-face{
+    font-family: "TrebuchetMS";
+    src: url('sources/fonts/TrebuchetMS.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "BebasNeue";
+    src: url('sources/fonts/BebasNeue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "WebSymbolsRegular";
+    src: url('sources/fonts/websymbols-regular-webfont.eot');
+    src: url('sources/fonts/websymbols-regular-webfont.eot?@iefix') format('embedded-opentype'),
+        url('sources/fonts/websymbols-regular-webfont.woff') format('woff'),
+        url('sources/fonts/websymbols-regular-webfont.ttf') format('truetype'),
+        url('sources/fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Fin Fuentes*/
+
+/*Inicio Generales*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.clearfix{
+    float: none;
+    clear:both;
+}
+.Logo_Card{
+    font-family: WebSymbolsRegular;
+    text-align: center;
+}
+.being{
+    color: black;
+}
+
+/*Fin Generales*/
+
+
+body{
+
+    width: 100%;
+}
+
+/*Cabezera-contiene wrap*/
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: whitesmoke;
+    color: blue;
+    font-family: "BebasNeue";
+}
+header b{
+    color: white;
+}
+/*Diseño barras teal*/
+/*Wrap: Wrapy, logo, menu*/
+.wrap{
+    width: 79%;
+    height: 10px;
+    margin: 0px auto;
+    background-color: #2AF6FF;
+}
+
+.wrapy{
+    width: 100%;
+    height: 10px;
+    float: none;
+    clear: both;
+    background-color: #00FF80;
+}
+
+/*Inicio Logo*/
+#logo{
+    width: auto;
+    padding-right:10px;
+    padding-left:1%;
+    height: 70px;
+    background-color: #2A9BFF ;
+    float: left;
+    letter-spacing: 1px;
+    cursor: pointer;
+    overflow: hidden;
+    margin-top: 10px;
+    border-radius: 1%;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+#logo h3{
+    display: block;
+    font-size: 34px;
+    margin-top: 17px;
+}
+/*Fin del logo*/
+
+#menu{
+    float: right;
+    width: 34%;
+    height: 70px;
+    background-color:  paleturquoise;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 1%;
+}
+
+#menu ul li{
+    
+    font-size: 25px;
+    display: inline-block;
+    margin: 0% 4%;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+
+#menu ul li a{
+    display: block;
+    color: white;
+    transition: color 300ms, backgrupnd-color 300ms;
+}
+/*Fin de de la cabezera*/
+
+
+/*Desgloze de mis tarjetas
+wrap2 lo contiene todo*/
+.wrap2{
+    width: 79%;
+    margin: 0px auto;
+}
+
+
+/*Estilo que tendran las tajetas*/
+#cards{
+    width: 100%;
+    margin-left: 45px;
+    height: 100px;
+
+}
+.card{
+    float: left;
+    width: 20%;
+    margin-right: 1.34%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    border-radius: 20%;
+    min-height: 280px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    transition: all 300ms;
+}
+
+.card .Content_Card ul{
+    margin-top: 10px;
+}
+.card .Content_Card ul li{
+    line-height: 20px;
+}
+/*Fin de las cartas*/
+
+/*Inicio de los artiulos*/
+
+#articles{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#articles h2{
+    display: block;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-family: "BebasNeue";
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    background-color: white;
+    box-shadow: 2px 0px 2px black, 1px 2px 5px black inset, 1px -2px 1px black, 1px -2px 5px black inset;
+    margin: 0px auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#articles article{
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin: 40px auto;
+    padding: 10px;
+    font-family: "TrebuchetMS";
+    background: white;
+    color: black;
+    box-shadow: 1px 1px 2px #ddd;
+}
+
+#articles article h4{
+    display: block;
+    font-size: 23px;
+    margin: 3px;
+}
+
+
+#articles article p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#articles article iframe{
+    margin-top: 15px;
+    width: 80%;
+}
+
+/*Inicio Blog*/
+#blog{
+    height: 100px;
+    margin-top: 60px;
+    line-height: 100px;
+    text-align: center;
+    font-family: "BebasNeue";
+    transition: all 1s;
+}
+
+#blog a{
+    font-family: "BebasNeue";
+    font-size:  40px;
+    letter-spacing: 3px;
+    color: #00538c;
+}
+/*Fin Blog*/
+/*Fin de los articulos*/
+
+/*Inicio Pie de paguina*/
+#footer{
+    width: 100%;
+    height: 170px;
+    background: whitesmoke;
+    color: black;
+    overflow: hidden;
+}
+
+#footer .wrappp{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: "TrebuchetMs";
+}
+
+#footer h5{
+    display: block;
+    width: 98%;
+    height: 45px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-family: "BebasNeue";
+    line-height: 45px;
+    box-shadow: 0px 2px 7px #000000, 0px 10px 3px inset  #00FF80;
+    margin: 0 0 1% 1.2%;
+}
+
+#footer img{
+
+    width: 0.9%;
+}
+
+#footer .icon{
+    margin-left: 10px;
+}
+#footer .icon a{
+    text-decoration: none;
+    color: green;
+}
+
+/*Fin de pie de paguina*/
+
+/*Inicio Zona hover*/
+
+#menu ul li a:hover{
+    color: #37BCF9;
+    transform: scale(1.2, 1.2);
+}
+
+
+.card:hover{
+    background: black;
+    color: white;
+    border-radius: 1% 0 2% 0;
+}
+
+.card:hover .Logo_Card{
+    animation: From_Up 300ms linear;
+}
+
+.card:hover .Title_Card{
+    animation: From_Up 400ms linear;
+}
+
+.card:hover .Content_Card{
+    animation: From_Left 600ms linear ;
+}
+
+
+#blog:hover{
+    border: 10px solid #37bcf9;
+    border-radius: 240px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+#blog:hover a{
+    text-shadow: 1px 1px 1px black, 1px 2px, 1px black, 1px 2px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 1px black ;
+}
+
+#logo:hover{
+    border-radius: 2px;
+    color: black;
+    background-color: #ccc;
+}
+#logo:hover h3{
+    animation: FromBellow 500ms linear;
+}
+/*Fin Zona hover*/
+
+/*Scroll*/
+::-webkit-scrollbar{
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: red;
+}
+
+/*Animaciones*/
+@keyframes FromBellow{
+    0%{
+        transform: translateX(200%) translateY(200%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+/*Animaciones*/
+@keyframes From_Up{
+    from{
+        transform: translateY(-300%);
+        color: white;
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+
+@keyframes From_Left{
+    from{
+        transform: translateX(-300%);
+        color: white;
+    }
+    to{
+        transform: translateX(0%);
+        color: white;
+    }
+}
