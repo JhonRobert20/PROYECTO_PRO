@@ -90,8 +90,12 @@
         font-size: 15px;
     }
 
+    #cards{
+        margin-left: 5%;
+    }
     .card{
         width: 40%;
+        
     }
 
     #articles h2{
