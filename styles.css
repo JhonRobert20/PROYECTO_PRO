@@ -273,17 +273,21 @@ wrap2 lo contiene todo*/
     text-align: center;
     font-family: "TrebuchetMs";
 }
-
+/*
 #footer h5{
     display: block;
     width: 98%;
     height: 45px;
+    font-size: 20px;
     border-radius: 5px;
     letter-spacing: 2px;
     font-family: "BebasNeue";
-    line-height: 45px;
-    box-shadow: 0px 2px 7px #000000, 0px 10px 3px inset  #00FF80;
+    line-height: 50px;
+    box-shadow:  0px 10px 3px inset  #00FF80;
     margin: 0 0 1% 1.2%;
+}*/
+#footer h5{
+    margin-bottom: 50px;
 }
 
 #footer img{
@@ -302,7 +306,6 @@ wrap2 lo contiene todo*/
 /*Fin de pie de paguina*/
 
 /*Inicio Zona hover*/
-
 
 
 #logo:hover h3{
