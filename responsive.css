@@ -115,10 +115,23 @@
     }
     #articles article iframe{
         height: 50%; 
-        width: 100%;
+        width: 80%;
         margin: 0px auto;
         padding: 0;    
-    }       
+    }
+    #articles{
+        width: 99%;
+    }
+
+    #articles article{
+        margin: 0px auto;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    #articles #blog{
+        width: 80%;
+    }      
 }
 
 @media (max-width:504px){
@@ -132,7 +145,12 @@
 
     }
 }
-
+@media (max-width:423px){
+    
+    #articles article iframe{
+        width: 100%;
+    }
+}
 @media (max-width: 396px){
     #logo{
         font-size: 20px;

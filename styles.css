@@ -42,7 +42,7 @@ a{
     text-align: center;
 }
 .being{
-    color: black;
+    color: blue;
 }
 
 /*Fin Generales*/
@@ -63,7 +63,7 @@ header{
     font-family: "BebasNeue";
 }
 header b{
-    color: white;
+    color: black;
 }
 /*Diseño barras teal*/
 /*Wrap: Wrapy, logo, menu*/
@@ -71,7 +71,7 @@ header b{
     width: 79%;
     height: 10px;
     margin: 0px auto;
-    background-color: #2AF6FF;
+    /*background-color: #2AF6FF;*/
 }
 
 .wrapy{
@@ -79,7 +79,7 @@ header b{
     height: 10px;
     float: none;
     clear: both;
-    background-color: #00FF80;
+    /*background-color: #00FF80;*/
 }
 
 /*Inicio Logo*/
@@ -88,7 +88,7 @@ header b{
     padding-right:10px;
     padding-left:1%;
     height: 70px;
-    background-color: #2A9BFF ;
+    background-color: whitesmoke;/*#2A9BFF ;*/
     float: left;
     letter-spacing: 1px;
     cursor: pointer;
@@ -111,7 +111,7 @@ header b{
     float: right;
     width: 34%;
     height: 70px;
-    background-color:  paleturquoise;
+    background-color:  whitesmoke;/*paleturquoise*/
     text-align: center;
     margin-top: 10px;
     border-radius: 1%;
@@ -128,7 +128,7 @@ header b{
 
 #menu ul li a{
     display: block;
-    color: white;
+    color: black;
     transition: color 300ms, backgrupnd-color 300ms;
 }
 /*Fin de de la cabezera*/
@@ -156,8 +156,8 @@ wrap2 lo contiene todo*/
     margin-right: 1.34%;
     margin-top: 20px;
     margin-bottom: 50px;
-    background-color: whitesmoke;
-    border-radius: 20%;
+    background-color: white;
+    border-radius: 7%;
     min-height: 280px;
     text-align: center;
     padding: 10px;
@@ -193,7 +193,7 @@ wrap2 lo contiene todo*/
 
 #articles h2{
     display: block;
-    width: 100%;
+    width: 80%;
     height: 75px;
     line-height: 75px;
     text-align: center;
@@ -202,7 +202,7 @@ wrap2 lo contiene todo*/
     font-weight: normal;
     letter-spacing: 2px;
     background-color: white;
-    box-shadow: 2px 0px 2px black, 1px 2px 5px black inset, 1px -2px 1px black, 1px -2px 5px black inset;
+    border-bottom: 3px solid black;
     margin: 0px auto;
     margin-top: 15px;
     margin-bottom: 20px;
@@ -211,12 +211,13 @@ wrap2 lo contiene todo*/
 #articles article{
     width: 100%;
     height: auto;
-    border: 1px solid #ccc;
-    margin: 40px auto;
+    margin: 0px auto;
+    margin-bottom: 40px;
     padding: 10px;
     font-family: "TrebuchetMS";
     background: white;
     color: black;
+    border: 1px solid #ccc;
     box-shadow: 1px 1px 2px #ddd;
 }
 
@@ -302,11 +303,7 @@ wrap2 lo contiene todo*/
 
 /*Inicio Zona hover*/
 
-#logo:hover{
-    border-radius: 2px;
-    color: black;
-    background-color: mediumblue;
-}
+
 
 #logo:hover h3{
     animation: FromBellow 500ms linear;
