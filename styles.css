@@ -42,7 +42,7 @@ a{
     text-align: center;
 }
 .being{
-    color: blue;
+    color: #5CC6F0;
 }
 
 /*Fin Generales*/
@@ -59,7 +59,7 @@ body{
 header{
     width: 100%;
     height: 90px;
-    background-color: whitesmoke;
+    background-color: white;
     color: blue;
     font-family: "BebasNeue";
 }
@@ -89,7 +89,7 @@ header b{
     padding-right:10px;
     padding-left:1%;
     height: 70px;
-    background-color: whitesmoke;/*#2A9BFF ;*/
+    
     float: left;
     letter-spacing: 1px;
     cursor: pointer;
@@ -112,7 +112,6 @@ header b{
     float: right;
     width: 34%;
     height: 70px;
-    background-color:  whitesmoke;/*paleturquoise*/
     text-align: center;
     margin-top: 10px;
     border-radius: 1%;
@@ -215,20 +214,27 @@ wrap2 lo contiene todo*/
 }
 
 #articles article{
-    width: 100%;
+    
     height: auto;
     margin: 0px auto;
     margin-bottom: 40px;
     padding: 10px;
     font-family: "TrebuchetMS";
-    
     color: black;
+    background-color: white;
+    border-radius: 1rem;
+    width: 60%;
+    
+}
+#articles article img{
+    width:100%;
 }
 
 #articles article h4{
     display: block;
     font-size: 23px;
     margin: 3px;
+    color: #5CC6F0;
 }
 
 
