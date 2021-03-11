@@ -42,7 +42,7 @@ a{
     text-align: center;
 }
 .being{
-    color: #5CC6F0;
+    color: #45B001;
 }
 
 /*Fin Generales*/
@@ -51,7 +51,7 @@ a{
 body{
 
     width: 100%;
-    background-image: url("sources//ecomerce.jpg");
+    background-color: #45B001;
 }
 
 /*Cabezera-contiene wrap*/
@@ -60,7 +60,7 @@ header{
     width: 100%;
     height: 90px;
     background-color: white;
-    color: blue;
+    color: #45B001;
     font-family: "BebasNeue";
 }
 header b{
@@ -233,8 +233,8 @@ wrap2 lo contiene todo*/
 #articles article h4{
     display: block;
     font-size: 23px;
-    margin: 3px;
-    color: #5CC6F0;
+    color: #45B001;
+    padding: 1rem;
 }
 
 
@@ -243,9 +243,15 @@ wrap2 lo contiene todo*/
     margin-bottom: 10px;
     font-size: 15px;
 }
+#articles article p a{
+    list-style: none;
+    color: #ee1818;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
 
 #articles article iframe{
-    margin-top: 15px;
+    margin-top: 0px;
     width: 80%;
 }
 
@@ -259,12 +265,7 @@ wrap2 lo contiene todo*/
     transition: all 1s;
 }
 
-#blog a{
-    font-family: "BebasNeue";
-    font-size:  40px;
-    letter-spacing: 3px;
-    color: #00538c;
-}
+
 /*Fin Blog*/
 /*Fin de los articulos*/
 
@@ -323,7 +324,7 @@ wrap2 lo contiene todo*/
 }
 
 #menu ul li a:hover{
-    color: #37BCF9;
+    color: #45B001;
     transform: scale(1.2, 1.2);
 }
 
