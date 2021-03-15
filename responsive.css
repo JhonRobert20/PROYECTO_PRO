@@ -16,11 +16,13 @@
         margin-top: 10px;
     }
     #menu a {
+        margin-top: 0;
         margin-right: 20px;
     }
     .menu-burger {
         display: none;
     }
+    
 }
 
 @media (max-width: 700px) {
@@ -29,5 +31,8 @@
     }
     .footer-links{
         width: 50%;
+    }
+    #articles article {
+        width: 95%;
     }
 }
