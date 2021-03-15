@@ -27,4 +27,7 @@
     #articles article iframe{
         height: 50%;
     }
+    .footer-links{
+        width: 50%;
+    }
 }
