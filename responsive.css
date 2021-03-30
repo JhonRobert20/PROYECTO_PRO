@@ -25,14 +25,21 @@
     
 }
 
-@media (max-width: 700px) {
-    #articles article iframe{
-        height: 50%;
-    }
+@media (max-width:700px) {
     .footer-links{
         width: 50%;
     }
     #articles article {
-        width: 95%;
+        width: 90%;
     }
+}
+@media (min-width: 1200px) {
+    .gif{
+        height: 50%;
+    }
+    #articles {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
 }

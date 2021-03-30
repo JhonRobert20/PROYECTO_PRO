@@ -1,19 +1,5 @@
 /*Inicio Fuentes*/
 @font-face{
-    font-family: "TrebuchetMS";
-    src: url('sources/fonts/TrebuchetMS.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face{
-    font-family: "BebasNeue";
-    src: url('sources/fonts/BebasNeue.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face{
     font-family: "WebSymbolsRegular";
     src: url('sources/fonts/websymbols-regular-webfont.eot');
     src: url('sources/fonts/websymbols-regular-webfont.eot?@iefix') format('embedded-opentype'),
@@ -28,6 +14,10 @@
 /*Variables*/
 :root {
     --color-principal: rgb(92, 92, 143);
+    --fondo: #353535;
+    --letras:#528BFF;
+    --amarillo: #F5BB00;
+    --fuente_principal: 'Nova Mono', monospace;
 }
 
 /*Inicio Generales*/
@@ -51,7 +41,7 @@ li {
     font-size: 30px;
 }
 .being{
-    color: var(--color-principal)!important;
+    color: var(--letras)!important;
 }
 
 /*Fin Generales*/
@@ -60,20 +50,20 @@ li {
 body{
 
     width: 100%;
-    background-color: var(--color-principal);
+    background-color: var(--fondo);
 }
 
 /*Cabezera-contiene wrap*/
 
 header{
     width: 100%;
-    background-color: whitesmoke;
-    color: var(--color-principal);
-    font-family: "BebasNeue";
+    background-color: var(--fondo);
+    color: var(--letras);
+    font-family: var(--fuente_principal);
     height: auto;
 }
 header b{
-    color: black;
+    color: var(--amarillo);
 }
 /*Diseño barras teal*/
 /*Wrap: Wrapy, logo, menu*/
@@ -91,7 +81,6 @@ header b{
 
 /*Inicio Logo*/
 #logo{
-    
     height: 100px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -102,6 +91,7 @@ header b{
 
 
 #logo h3{
+    color: var(--letras);
     font-size: 34px;
     margin-top: 17px;
 }
@@ -120,7 +110,7 @@ header b{
 
 #menu a{
     display: block;
-    color: black;
+    color: var(--amarillo);
     transition: color 300ms, backgrupnd-color 300ms;
     margin-top: 25px;
     font-size: 30px;
@@ -137,18 +127,17 @@ header b{
     margin: 0px auto;
     text-align: center;
 }
-
-#articles h2{
+h2{
     display: block;
+    color: var(--amarillo);
     height: 75px;
     line-height: 75px;
     text-align: center;
-    font-family: "BebasNeue";
+    font-family: var(--fuente_principal);
     font-size: 40px;
     font-weight: normal;
     letter-spacing: 2px;
     
-    border-bottom: 3px solid black;
     margin: 0px auto;
     margin-top: 15px;
     margin-bottom: 20px;
@@ -156,22 +145,45 @@ header b{
 
 #articles article{
     
-    height: auto;
+    max-height: 40rem;
     margin: 0px auto;
     margin-bottom: 40px;
-    font-family: "TrebuchetMS";
-    color: black;
-    background-color: white;
+    font-family: var(--fuente_principal);
+    background-color: #6A6A6A;
     border-radius: 1rem;
     width: 70%;
     
 }
+.gif {
+    height: 40vh;
+}
+.normal {
+    width: 90%;
+}
+article nav {
+    padding: 0 10% 10% 10%;
+    display: flex;
+    justify-content: space-around;
+}
+nav span {
+    background-color: #F78112;
+    line-height: 5rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+nav img {
+    width: 3rem;
+}
 #articles article a img{
-    width:90%;
     padding: 10px;
+    margin-bottom: 4rem;
+    border-radius: 1rem;
 }
 
 #articles article h4{
+    text-transform: uppercase;
+    color: var(--letras)!important;
     display: block;
     font-size: 23px;
     color: var(--color-principal);
@@ -179,34 +191,6 @@ header b{
 }
 
 
-#articles article p{
-    padding: 20px 0;
-    font-size: 15px;
-}
-#articles article p a{
-    list-style: none;
-    color: #ee1818;
-    font-size: 15px;
-    margin-bottom: 10px;
-}
-
-#articles article iframe{
-    margin-top: 0px;
-    width: 100%;
-}
-
-/*Inicio Blog*/
-#blog{
-    height: 100px;
-    margin-top: 60px;
-    line-height: 100px;
-    text-align: center;
-    font-family: "BebasNeue";
-    transition: all 1s;
-}
-
-
-/*Fin Blog*/
 /*Fin de los articulos*/
 
 /*Inicio Pie de paguina*/
@@ -214,9 +198,8 @@ header b{
     padding: 20px 0;
     width: 100%;
     height: auto;
-    background: whitesmoke;
     align-items: center;
-    color: black;
+    color: white;
     overflow: hidden;
     text-align: center;
 }
@@ -227,7 +210,7 @@ header b{
     align-items: center;
     width: 100%;
     text-align: center;
-    font-family: "TrebuchetMs";
+    font-family: var(--fuente_principal);
 }
 .footer-informacion a{
     font-size: 40px;
@@ -255,7 +238,7 @@ header b{
 }
 #footer .icon a{
     text-decoration: none;
-    color: green;
+    color: var(--amarillo);
 }
 
 /*Fin de pie de paguina*/
@@ -268,7 +251,7 @@ header b{
 }
 
 #menu a:hover{
-    color: var(--color-principal);
+    color: var(--letras);
     transform: scale(1.2, 1.2);
 }
 
@@ -307,11 +290,11 @@ header b{
 
 /*Scroll*/
 ::-webkit-scrollbar{
-    width: 9px;
+    width: .4rem;
 }
 
 ::-webkit-scrollbar-thumb{
-    background: red;
+    background: white;
 }
 
 /*Animaciones*/
