@@ -145,7 +145,7 @@ h2{
 
 #articles article{
     
-    max-height: 40rem;
+    max-height: 50rem;
     margin: 0px auto;
     margin-bottom: 40px;
     font-family: var(--fuente_principal);
