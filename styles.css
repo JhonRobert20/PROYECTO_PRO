@@ -183,10 +183,9 @@ nav img {
 
 #articles article h4{
     text-transform: uppercase;
-    color: var(--letras)!important;
+    color: var(--letras);
     display: block;
     font-size: 23px;
-    color: var(--color-principal);
     padding: 1rem;
 }
 
