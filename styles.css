@@ -22,7 +22,7 @@
 
 /*Inicio Generales*/
 *{
-    margin: 0px;
+    margin: 0;
     padding: 0px;
 }
 a{
@@ -46,18 +46,16 @@ li {
 
 /*Fin Generales*/
 
-
 body{
-
     width: 100%;
-    background-color: var(--fondo);
+    /* background-color: var(--fondo); */
+    background-image: url(sources/images/asteroids.jpg);
 }
 
 /*Cabezera-contiene wrap*/
 
 header{
     width: 100%;
-    background-color: var(--fondo);
     color: var(--letras);
     font-family: var(--fuente_principal);
     height: auto;
@@ -77,11 +75,9 @@ header b{
 }
 
 
-
-
 /*Inicio Logo*/
 #logo{
-    height: 100px;
+    height: 140px;
     letter-spacing: 1px;
     cursor: pointer;
     text-align: center;
@@ -124,7 +120,7 @@ header b{
 
 #articles{
     width: 100%;
-    margin: 0px auto;
+    margin: 0 auto;
     text-align: center;
 }
 h2{
@@ -147,7 +143,7 @@ h2{
     
     max-height: 50rem;
     margin: 0px auto;
-    margin-bottom: 40px;
+    margin-bottom: 10rem;
     font-family: var(--fuente_principal);
     background-color: #6A6A6A;
     border-radius: 1rem;
@@ -173,7 +169,8 @@ nav span {
     border-radius: 50%;
 }
 nav img {
-    width: 3rem;
+    width: 5rem;
+    height: 5rem;
 }
 #articles article a img{
     padding: 10px;
@@ -290,10 +287,11 @@ nav img {
 /*Scroll*/
 ::-webkit-scrollbar{
     width: .4rem;
+    background-color: var(--fondo);
 }
 
 ::-webkit-scrollbar-thumb{
-    background: white;
+    background: var(--color-principal);
 }
 
 /*Animaciones*/
