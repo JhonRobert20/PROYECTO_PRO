@@ -49,9 +49,6 @@ li {
 body{
     width: 100%;
     background-color: var(--fondo);
-    background-image: url(sources/images/asteroids.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /*Cabezera-contiene wrap*/
