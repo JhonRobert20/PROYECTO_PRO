@@ -12,11 +12,18 @@
 /*Fin Fuentes*/
 
 /*Variables*/
-:root {
-    --color-principal: rgb(92, 92, 143);
+/*
+--color-principal: rgb(92, 92, 143);
     --fondo: #353535;
     --letras:#528BFF;
     --amarillo: #F5BB00;
+    --fuente_principal: 'Nova Mono', monospace;
+*/
+:root {
+    --color-principal: rgb(92, 92, 143);
+    --fondo: #528BFF;
+    --letras: #F5BB00;
+    --amarillo: #353535;
     --fuente_principal: 'Nova Mono', monospace;
 }
 
@@ -144,7 +151,7 @@ h2{
     margin: 0px auto;
     margin-bottom: 10rem;
     font-family: var(--fuente_principal);
-    background-color: #6A6A6A;
+    background-color: #353535;
     border-radius: 1rem;
     width: 70%;
     
