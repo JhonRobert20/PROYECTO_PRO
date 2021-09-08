@@ -34,9 +34,6 @@
     }
 }
 @media (min-width: 1200px) {
-    .gif{
-        height: 50%;
-    }
     #articles {
         display: grid;
         grid-template-columns: 50% 50%;
