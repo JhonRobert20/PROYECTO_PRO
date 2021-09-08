@@ -29,15 +29,13 @@
     .footer-links{
         width: 50%;
     }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
     #articles article {
         width: 90%;
     }
-}
-@media (min-width: 1200px) {
-    #articles {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        
-    }
-    
 }
