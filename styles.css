@@ -1,19 +1,6 @@
-/*Variables*/
-/*
---color-principal: rgb(92, 92, 143);
-    --fondo: #353535;
-    --letras:#528BFF;
-    --amarillo: #F5BB00;
-    --fuente_principal: 'Nova Mono', monospace;
-*/
-:root {
-    --color-principal: rgb(92, 92, 143);
-    --fondo: #353535;
-    --letras: #528BFF;
-    --amarillo: #F5BB00;
-    --fuente_principal: 'Nova Mono', monospace;
-}
-
+@import url(variables.css);
+@import url(responsive.css);
+@import url(carrusel.css);
 /*Inicio Generales*/
 *{
     margin: 0;
@@ -146,14 +133,9 @@ nav img {
     border-radius: 1rem;
 }
 
-#articles article h4{
-    text-transform: uppercase;
-    color: var(--letras);
-    display: block;
-    font-size: 23px;
-    padding: 1rem;
+.blanco {
+    color: white;
 }
-
 
 /*Fin de los articulos*/
 

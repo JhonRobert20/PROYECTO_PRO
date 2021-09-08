@@ -1,0 +1,52 @@
+@import url(variables.css);
+
+.carrusel {
+    width: 90%;
+    max-width: 120em;
+    padding: 2em;
+}
+
+.carrusel .grande {
+    width: 700%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+
+    transition: all .5s ease;
+    transform: translateX(0%);
+}
+
+.carrusel article {
+    width: calc(100% / 7);
+}
+
+.carrusel article .img {
+    min-height: 10vh;
+}
+
+.carrusel .flechas {
+    width: 100%;
+    background-color: black;
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4em;
+}
+
+.carrusel .flecha {
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 0;
+    margin: 0.2em;
+}
+
+.activo {
+    background-color: orange;
+}
+.carrusel .flecha:not(.activo){
+    background-color: red;
+}
