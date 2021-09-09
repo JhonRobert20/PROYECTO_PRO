@@ -1,115 +1,43 @@
 @import url(variables.css);
 @import url(responsive.css);
 @import url(carrusel.css);
-/*Inicio Generales*/
-*{
-    margin: 0;
-    padding: 0px;
-}
-a{
-    text-decoration: none;
-}
-li {
-    list-style: none;
-}
-.clearfix{
-    float: none;
-    clear:both;
-}
-.Logo_Card{
-    font-family: WebSymbolsRegular;
-    text-align: center;
-    font-size: 30px;
-}
+@import url(constantes.css);
+@import url(animaciones_efectos.css);
 
-.amarillo {
-    color: var(--amarillo);
-}
 
-.azul {
-    color: var(--letras);
-}
-
-h1, h2 {
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 92px;
-    padding: 80px 50px;
-    text-align: center;
-    text-transform: uppercase;
-    text-rendering: optimizeLegibility;
-}
-
-h2 {
-    font-size: 30px;
-    padding: 80px 50px;
-}
-.deepshadow {
-    letter-spacing: .1em;
-    transition: 0.5s;
-    cursor: pointer;
-    text-shadow: 
-      0 -1px 0 #fff, 
-      0 1px 0 #2e2e2e, 
-      0 2px 0 #2c2c2c, 
-      0 3px 0 #2a2a2a, 
-      0 4px 0 #282828, 
-      0 5px 0 #262626, 
-      0 6px 0 #242424, 
-      0 7px 0 #222, 
-      0 8px 0 #202020, 
-      0 9px 0 #1e1e1e, 
-      0 10px 0 #1c1c1c, 
-      0 11px 0 #1a1a1a, 
-      0 12px 0 #181818, 
-      0 13px 0 #161616, 
-      0 14px 0 #141414, 
-      0 15px 0 #121212, 
-      0 22px 30px rgba(0, 0, 0, 0.9);
-}
-.deepshadow:hover{
-    letter-spacing: 1rem;
-    transition: 1s;
-}
 
 /*Fin Generales*/
 
-body{
-    width: 100%;
-    background-color: var(--fondo);
-}
 
-
-/*Inicio de los artiulos*/
-
-#articles{
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-html{
-    width: 100%;
-}
 
 .enlace_derechos {
     color:white;
     font-size: 14px!important;
 }
+.clearfix{
+    float: none;
+    clear:both;
+}
+.normal {
+    width: 60%;
+}
 
-#articles article{
+/*Inicio de los artiulos*/
+
+article{
     
     margin: 0px auto;
    
     font-family: var(--fuente_principal);
     border-radius: 1rem;
-    width: 70%;
+    width: 60%;
     
 }
 
-.normal {
-    width: 90%;
-}
+
+
 article nav {
-    padding: 0 10% 10% 10%;
+    padding: 0 10% 0% 10%;
     display: flex;
     justify-content: space-around;
 }
@@ -127,20 +55,20 @@ nav img {
     width: 5rem;
     height: 5rem;
 }
-#articles article a img{
-    padding: 10px;
-    margin-bottom: 4rem;
+article a img{
     border-radius: 1rem;
 }
 
-.blanco {
-    color: white;
+article a img:hover {
+    visibility: hidden;
+
 }
+
 
 /*Fin de los articulos*/
 
 /*Inicio Pie de paguina*/
-#footer{
+footer{
     padding: 20px 0;
     width: 100%;
     height: auto;
@@ -165,31 +93,29 @@ nav img {
 .footer-links {
     display: flex;
     align-items: center;
-    width: 20%;
     justify-content: space-between;
 }
 
-#footer h5{
+footer h5{
     margin-bottom: 50px;
 }
 
-#footer img{
+footer img{
     width: 40px;
     display: flex;
     align-items: flex-end;
 }
 
-#footer .icon{
+footer .icon{
     margin-left: 10px;
 }
-#footer .icon a{
+footer .icon a{
     text-decoration: none;
     color: var(--amarillo);
 }
 
 /*Fin de pie de paguina*/
 
-/*Inicio Zona hover*/
 
 /*Scroll*/
 ::-webkit-scrollbar{
@@ -199,4 +125,7 @@ nav img {
 
 ::-webkit-scrollbar-thumb{
     background: var(--color-principal);
+}
+article nav {
+    display: none;
 }

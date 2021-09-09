@@ -1,20 +1,23 @@
-@import url(variables.css);
 
 .carrusel {
     width: 90%;
     max-width: 120em;
-    padding: 2em;
+    text-align: center;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0px auto;
     overflow: hidden;
 }
-
 .carrusel .grande {
     width: 700%;
     display: flex;
+    text-align: center;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: 2em;
-
+    padding: 0;
     transition: all .5s ease;
     transform: translateX(0%);
 }
@@ -23,13 +26,9 @@
     width: calc(100% / 7);
 }
 
-.carrusel article .img {
-    min-height: 10vh;
-}
 
 .carrusel .flechas {
     width: 100%;
-    background-color: black;
     padding: 1em;
     display: flex;
     flex-flow: row nowrap;
@@ -43,11 +42,15 @@
     height: 2em;
     margin: 1em 1em 0;
     margin: 0.2em;
+    cursor: pointer;
 }
 
 .activo {
-    background-color: orange;
+    background-color: var(--amarillo);
 }
 .carrusel .flecha:not(.activo){
-    background-color: red;
+    background-color: var(--letras);
+}
+.carrusel .flecha:not(.activo):hover {
+    background-color: var(--amarillo);
 }
